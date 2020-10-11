@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulario</h2>
+    <form action="activarForm.html" target="_blank" >
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Ingrese su nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Ingrese su apellido">
+        <p> Género
+            <input type="radio" id="hombre" name="género" value="hombre">
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="género" value="mujer">
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="otro" name="género" value="otro">
+            <label for="otro">Otro</label>
+        </p>
+        <p>Seleccione día que quiere cursar
+            <select name="dias" id="dias">
+                <option value="lunes">Lunes</option>
+                <option value="martes">Martes</option>
+                <option value="miercoles">Miércoles</option>
+                <option value="jueves">Jueves</option>
+                <option value="viernes">Viernes</option>
+            </select>
+        </p>
+        <p>Comentarios
+            <textarea name="message" id="message" cols="30" rows="4" placeholder="Ingrese su comentario"></textarea>
+        </p>
+        <button type="submit" value="Submit"> Enviar formulario</button>
+    </form>
+</body>
+</html>
