@@ -1,0 +1,42 @@
+body{
+  background-color: black;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  color: #eebb30bd;
+}
+table{
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.categoria{
+  background-color: black;
+  color: #eebb30bd;
+  padding: 20px;
+  font-size: 24px;
+}
+
+td, th{
+  padding: 17px;
+  border-bottom: 1px solid #ddd;
+}
+.peliculas{
+  background-color: black;
+  color: #eebb30bd;
+  font-weight: bolder;
+}
+.peliculas:hover {
+  background-color: #eebb30bd;
+  color: black;
+}
+.text-year{
+  text-align: center;
+  font-size: 18px; 
+}
+
+.text-film{
+  font-style: italic;
+  font-size: 17px;
+}
