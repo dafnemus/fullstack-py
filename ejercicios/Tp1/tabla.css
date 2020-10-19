@@ -1,0 +1,27 @@
+.sugerencia{
+    font-size: 30px;
+}
+table{
+  margin: auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 950px;
+}
+
+td{
+  background-color: wheat;
+}
+
+th,td{
+  padding: 10px;
+  font-size: 24px;
+  border: 3px solid darksalmon;
+  text-align: center;
+  word-wrap: break-word;
+}
+th{
+  border: 3px solid black;
+}
+.portada{
+  width: 90px;
+}

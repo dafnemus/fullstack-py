@@ -1,0 +1,12 @@
+
+li{
+	font-size: 22px;
+	margin: auto;
+	
+}
+
+li:hover{
+	border: 3px solid darksalmon;
+	background-color: wheat;
+	cursor: pointer;
+}
