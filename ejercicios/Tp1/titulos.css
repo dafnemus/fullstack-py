@@ -1,6 +1,6 @@
 
 li{
-	font-size: 22px;
+	font-size: 11px;
 	margin: auto;
 	
 }
@@ -9,4 +9,15 @@ li:hover{
 	border: 3px solid darksalmon;
 	background-color: wheat;
 	cursor: pointer;
+}
+
+@media only screen and (min-width: 400px){
+	li{
+		font-size: 16px;
+	}
+}
+@media only screen and (min-width: 768px){
+	li{
+		font-size: 20px;
+	}
 }
