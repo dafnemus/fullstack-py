@@ -1,15 +1,15 @@
-html{
+html {
   box-sizing: border-box;
 }
-*, *:before, *:after{
+*, *:before, *:after {
   box-sizing: inherit;
 }
-body{
+body {
   background-color: darksalmon;
   font-family: 'Commissioner', sans-serif;
   height: 100vh;
 }
-header{
+header {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -18,19 +18,19 @@ header{
   padding: 8px;
   position: relative;
 }
-h1{
+h1 {
   padding: 0;
   margin: 0;
   font-size: 15px;
 }
-nav{
+nav {
   display: flex;
   flex-direction: row-reverse;
   position: fixed;
   top: 1;
   right: 3px;
 }
-.navbar{
+.navbar {
   padding: 6px;
   font-size: 10px;
   background-color: wheat;
@@ -38,7 +38,7 @@ nav{
   text-decoration: none;
 }
 
-.navbar:hover{
+.navbar:hover {
   background-color: black;
   color: darksalmon;
 }
@@ -47,49 +47,49 @@ nav{
   flex-direction: row;
   align-self: center;
 }
-.titulo-novedad{
+.titulo-novedad {
   font-size: 40px;
   text-align: center;
 }
 
-.img-home{
+.img-home {
   width: 100px;
   margin-left: 5px;
   margin-right: 95px;
 }
-details{
+details {
   margin-left: -25px;
 }
-summary, #descripcion{
+summary, #descripcion {
   font-size: 12px;
   border: none;
   cursor: pointer;
 }
-.contenedor2{
+.contenedor2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-self: center;
 
 }
-.contenedor3{
+.contenedor3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.redes{
+.redes {
   margin-left: 4px;
   text-decoration: none;
   font-size: 11px;
 }
-.dchos{
+.dchos {
   display: flex;
   flex-direction: row;
   align-self: center;
   font-size: 12px;
 }
-i{
+i {
   margin: 2px;
 }  
 footer {
@@ -102,27 +102,27 @@ footer {
   width: 100%;
 }
 
-@media only screen and (min-width: 400px){
-  h1{
+@media only screen and (min-width: 400px) {
+  h1 {
     font-size: 20px;
   }
-  .navbar{
+  .navbar {
     padding: 8px;
     font-size: 10px;
   }
   
-  .titulo-novedad{
+  .titulo-novedad {
     flex: 50%;
     font-size: 40px;
   }
-  .img-home{
+  .img-home {
     margin-left: 5px;
     width: 150px;
   }
-  details{
+  details {
     margin-right: 16px;
   }
-  summary, #descripcion{
+  summary, #descripcion {
     font-size: 20px;
   }
   footer {
@@ -130,32 +130,32 @@ footer {
     width: 100%;
   }
 
-  i{
+  i {
     margin: 6px;
   }
-  .redes{
+  .redes {
     margin-left: 4px;
     font-size: 13px;
   }
-  .dchos{
+  .dchos {
     font-size: 15px;
   }
 }
 
-@media only screen and (min-width: 768px){
-  h1{
+@media only screen and (min-width: 768px) {
+  h1 {
     font-size: 35px;
   }
-  .navbar{
+  .navbar {
     padding: 10px;
     font-size: 16px;
   }
   
-  .titulo-novedad{
+  .titulo-novedad {
     flex: 50%;
     font-size: 80px;
   }
-  .img-home{
+  .img-home {
     width: 200px;
   }
 
@@ -166,28 +166,28 @@ footer {
     height: 130px;
     width: 100%;
   }
-  .redes{
+  .redes {
     font-size: 18px;
   }
-  .dchos{
+  .dchos {
     font-size: 18px;
   }
 }
 
-@media only screen and (min-width: 1200px){
-  h1{
+@media only screen and (min-width: 1200px) {
+  h1{ 
     font-size: 45px;
   }
   
-  .titulo-novedad{
+  .titulo-novedad {
     flex: 50%;
     font-size: 100px;
   }
-  .img-home{
+  .img-home {
     width: 350px;
   }
 
-  summary, #descripcion{
+  summary, #descripcion {
     font-size: 24px;
     margin-left: 5px;
   }
@@ -195,10 +195,10 @@ footer {
     height: 130px;
     width: 100%;
   }
-  .redes{
+  .redes {
     font-size: 18px;
   }
-  .dchos{
+  .dchos {
     font-size: 18px;
   }
 }
