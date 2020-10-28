@@ -61,14 +61,15 @@ th{
 }
 @media only screen and (min-width: 1200px){
   table{
+    margin-bottom: 5px;
     flex: 50%;
-    width: 890px;
+    width: 800px;
   }
   .sugerencia{
     font-size: 30px;
   }
   td,th {
-    padding: 20px;
+    padding: 15px;
     font-size: 22px;
   }
   .portada{

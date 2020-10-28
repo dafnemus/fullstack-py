@@ -46,6 +46,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-self: center;
+  background-color: wheat;
 }
 .titulo-novedad {
   font-size: 40px;
@@ -178,7 +179,9 @@ footer {
   h1{ 
     font-size: 45px;
   }
-  
+  .contenedor1{
+    margin-right: 35px;
+  }
   .titulo-novedad {
     flex: 50%;
     font-size: 100px;
