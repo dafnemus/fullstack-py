@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+img {
+    width: 100px;
+    height: 150px;
+    margin: 3px;
+}
+@media only screen and (min-width: 400px){
+    img {
+        width: 150px;
+        height: 180px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    img {
+        width: 200px;
+        height: 230px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+}
