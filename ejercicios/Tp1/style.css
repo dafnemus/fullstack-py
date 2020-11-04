@@ -48,6 +48,8 @@ nav {
   align-self: center;
   background-color: wheat;
 }
+
+
 .titulo-novedad {
   font-size: 40px;
   text-align: center;
@@ -57,7 +59,13 @@ nav {
   width: 100px;
   margin-left: 5px;
   margin-right: 95px;
+  transition: width 1s height 2s;
 }
+
+.img-home:hover {
+  transform: rotate(7deg);
+}
+
 details {
   margin-left: -25px;
 }
