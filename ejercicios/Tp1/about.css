@@ -17,11 +17,13 @@ strong{
   font-size: 17px;
 }
 
+
 @media only screen and (min-width: 400px) {
   h2 {
     font-size: 18px;
   }
   img {
+    margin: auto;
     width: 280px;
   }
   p {
@@ -29,6 +31,11 @@ strong{
   }
   strong{
     font-size: 20px;
+  }
+  iframe{
+    margin-left: 5%;
+    width: 350px;
+    height: 300px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -46,6 +53,11 @@ strong{
   strong{
     font-size: 25px;
   }
+  iframe {
+    margin-left: 25%;
+    width: 400px;
+    height: 350px;
+  }
 }
 @media only screen and (min-width: 1200px){
   h2 {
@@ -61,5 +73,9 @@ strong{
   strong {
     font-size: 30px;
     background-color: wheat;
+  }
+  iframe {
+    margin-left: 28%;
+    width: 560px;
   }
 }
